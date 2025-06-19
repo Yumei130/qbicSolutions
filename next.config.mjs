@@ -6,7 +6,7 @@ const nextConfig = {
   // assetPrefix: isProd ? "/Crypgo/" : "",
   output: "export",
   images: {
-    unoptimized: true,
+    unoptimized: false,
   },
 };
 
