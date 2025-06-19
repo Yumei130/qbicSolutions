@@ -22,10 +22,13 @@ export function getPostBySlug(slug: string, fields: string[] = []) {
   const items: any = {};
 
   function processImages(content: string) {
-    return content.replace(/!\[.*?\]\((.*?)\)/g, (match, p1) => {
-      // Si la ruta no empieza con "http" o "/", le agregamos el "/"
-      const src = p1.startsWith("http") || p1.startsWith("/") ? p1 : `/${p1}`;
-      return `<img src="${src}" alt="" />`;
+    return content.replace(/!\[(.*?)\]\((.*?)\)/g, (match, alt, path) => {
+      // Si la ruta no empieza con "http" o "/", la forzamos a empezar con "/"
+      const src =
+        path.startsWith("http") || path.startsWith("/") ? path : `/${path}`;
+
+      // Retornamos la etiqueta img con el alt correcto
+      return `<img src="${src}" alt="${alt}" />`;
     });
   }
 
