@@ -17,10 +17,10 @@ export default function Home() {
     <main>
       <Inicio/>
       <Hero />
-      <Work />
       <TimeLine />
-      <Platform />
+      <Work />
       <Portfolio />
+      <Platform />
       <Upgrade />
       <Perks />
     </main>

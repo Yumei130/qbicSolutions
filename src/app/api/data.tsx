@@ -142,26 +142,38 @@ export const timelineData: {
 }[] = [
   {
     icon: "/images/timeline/icon-planning.svg",
-    title: "Planning",
-    text: "Map the project's scope and architecture",
+    title: "Desarrollo",
+    text: "Creamos software a medida con la tecnología ideal.",
     position: "md:top-0 md:left-0",
   },
   {
     icon: "/images/timeline/icon-refinement.svg",
-    title: "Refinement",
-    text: "Refine and improve your solution",
+    title: "GIS",
+    text: "Soluciones para analizar y visualizar datos espaciales.",
     position: "md:top-0 md:right-0",
   },
   {
     icon: "/images/timeline/icon-prototype.svg",
-    title: "Prototype",
-    text: "Build a working prototype to test your product",
-    position: "md:bottom-0 md:left-0",
+    title: "Movilidad",
+    text: "Apps móviles para vender más y trabajar mejor.",
+    position: "md:top-72 md:left-0", // más separado
   },
   {
     icon: "/images/timeline/icon-support.svg",
-    title: "Support",
-    text: "Deploy the product and ensure full support by us",
+    title: "Infraestructura",
+    text: "Diseñamos y damos soporte a tu sistema informático.",
+    position: "md:top-72 md:right-0", // más separado
+  },
+  {
+    icon: "/images/timeline/icon-support.svg", // Asegúrate de tener este ícono
+    title: "Consultoría",
+    text: "Asesoramos para elegir las mejores soluciones IT.",
+    position: "md:bottom-0 md:left-0",
+  },
+  {
+    icon: "/images/timeline/icon-support.svg", // Asegúrate de tener este ícono
+    title: "Web & SEO",
+    text: "Diseñamos tu web y mejoramos tu visibilidad online.",
     position: "md:bottom-0 md:right-0",
   },
 ];
