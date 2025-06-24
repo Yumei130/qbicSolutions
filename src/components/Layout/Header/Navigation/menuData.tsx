@@ -1,8 +1,8 @@
 import { HeaderItem } from "@/types/menu";
 
 export const headerData: HeaderItem[] = [
-  { label: "Buy & Sell", href: "/#main-banner" },
-  { label: "Development", href: "/#development" },
+  { label: "Inicio", href: "/#home" },
+  { label: "Sobre Nosotros", href: "/#about-us" },
   { label: "Work", href: "/#work" },
   { label: "Portfolio", href: "/#portfolio" },
   { label: "Upgrade", href: "/#upgrade" },
