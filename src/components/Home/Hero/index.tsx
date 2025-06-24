@@ -62,20 +62,32 @@ const Hero = () => {
           <motion.div {...leftAnimation} className="lg:col-span-5 col-span-12">
             <div className="flex gap-6 items-center lg:justify-start justify-center mb-5 mt-24">
               <Image
-                src= {`${getImagePrefix()}images/icons/icon-bag.svg`}
+                src={`${getImagePrefix()}images/icons/users.svg`}
                 alt="icon"
                 width={40}
                 height={40}
+                className="text-white invert"
               />
+              <i className="fi fi-rr-users-alt"></i>
               <p className="text-white sm:text-28 text-18 mb-0">
-                Crypto On The <span className="text-primary">Go</span>
+                <span className="text-primary font-semibold">¿Quiénes somos?</span>
               </p>
             </div>
-            <h1 className="font-medium lg:text-76 md:text-70 text-54 lg:text-start text-center text-white mb-10">
-              Buy and Sell <span className="text-primary">Crypto</span> of your{" "}
-              <span className="text-primary">choice</span>!
+            <h1 className="font-medium text-22 lg:text-start text-center text-white mb-10">
+              {/* Buy and Sell <span className="text-primary">Crypto</span> of your{" "} */}
+              <span className="text-primary">Solusoft</span> es una compañía de consultoría y servicios en tecnologías de la Información.
+              Somos una compañía en tecnologías de la información con más de 20 años de experiencia, nacida con el objetivo de desarrollar software a medida de las necesidades de cada negocio.
+              Y todo ello con un equipo de profesionales.
             </h1>
-            <div className="flex items-center md:justify-start justify-center gap-8">
+            <div className="bg-dark_grey bg-opacity-70 p-6 rounded-lg shadow-lg mb-10">
+    <h2 className="text-2xl font-semibold text-primary mb-4 text-center lg:text-start">Nuestro Compromiso</h2>
+    <p className="text-white leading-relaxed text-justify">
+      El compromiso con la calidad de nuestros productos y servicios se ha mantenido firme desde nuestros orígenes, 
+      concienciados de que los proyectos ejecutados con calidad son la mejor carta de presentación ante nuevos clientes 
+      y la principal forma de conservarlos.
+    </p>
+  </div>
+            {/* <div className="flex items-center md:justify-start justify-center gap-8">
               <button
                 className="bg-primary border border-primary rounded-lg text-21 font-medium hover:bg-transparent hover:text-primary text-darkmode py-2 px-7 z-50"
                 onClick={() => setIsBuyingOpen(true)}
@@ -88,8 +100,8 @@ const Hero = () => {
               >
                 Sell Crypto
               </button>
-            </div>
-            <div className="flex items-center md:justify-start justify-center gap-12 mt-20">
+            </div> */}
+            {/* <div className="flex items-center md:justify-start justify-center gap-12 mt-20">
               <Link href="#" className="hover:scale-110 duration-300">
                 <Image
                   src={`${getImagePrefix()}images/hero/playstore.png`}
@@ -100,13 +112,13 @@ const Hero = () => {
               </Link>
               <Link href="#" className="hover:scale-110 duration-300">
                 <Image
-                  src= {`${getImagePrefix()}images/hero/applestore.png`}
+                  src={`${getImagePrefix()}images/hero/applestore.png`}
                   alt="App Store"
                   width={240}
                   height={70}
                 />
               </Link>
-            </div>
+            </div> */}
           </motion.div>
           <motion.div
             {...rightAnimation}
@@ -114,7 +126,7 @@ const Hero = () => {
           >
             <div className="ml-20 -mr-64">
               <Image
-                src= {`${getImagePrefix()}images/hero/banner-image.png`}
+                src={`${getImagePrefix()}images/hero/code.jpg`}
                 alt="Banner"
                 width={1150}
                 height={1150}
@@ -122,7 +134,7 @@ const Hero = () => {
             </div>
           </motion.div>
         </div>
-        <CardSlider />
+        {/* <CardSlider /> */}
       </div>
       <div className="absolute w-50 h-50 bg-gradient-to-bl from-tealGreen from-50% to-charcoalGray to-60% blur-400 rounded-full -top-64 -right-14 -z-1"></div>
 
