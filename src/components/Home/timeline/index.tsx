@@ -27,7 +27,7 @@ const TimeLine = () => {
               Servicios <span className="text-primary">Informáticos</span>
             </p>
             <h2 className="text-white sm:text-28 text-18 font-medium lg:w-80% mx-auto mb-20">
-              <span className="text-primary">Solusoft</span> ofrece servicios
+              <span className="text-primary">Qbic</span> ofrece servicios
               informáticos eficientes y un servicio integral en distintas áreas
               de TI. Cuenta con unidades especializadas que brindan soluciones
               desde el diseño hasta el mantenimiento de sistemas, asegurando una

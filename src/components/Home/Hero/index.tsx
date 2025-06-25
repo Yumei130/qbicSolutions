@@ -88,7 +88,7 @@ const Hero = () => {
               </p>
             </div>
             <h1 className="font-medium text-22 text-justify text-white mb-10">
-              <span className="text-primary">Solusoft</span> es una compañía de
+              <span className="text-primary">Qbic</span> es una compañía de
               consultoría y servicios en tecnologías de la Información. Somos
               una compañía en tecnologías de la información con más de 20 años
               de experiencia, nacida con el objetivo de desarrollar software a
