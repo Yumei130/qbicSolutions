@@ -4,8 +4,21 @@ import { timelineData } from "@/app/api/data";
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import { getImagePrefix } from "@/utils/utils";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faCode,
+  faLaptopCode,
+  faLocationDot,
+  faMobileScreen,
+  faServer,
+  faUserTie,
+} from "@fortawesome/free-solid-svg-icons";
 
 const TimeLine = () => {
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />;
   const ref = useRef(null);
   const inView = useInView(ref);
 
@@ -43,14 +56,14 @@ const TimeLine = () => {
             <div className="md:block hidden relative">
               <div>
                 <Image
-                  src={`${getImagePrefix()}images/timeline/img-timeline.png`}
+                  src={`${getImagePrefix()}images/timeline/celular.png`}
                   alt="image"
                   width={1220}
                   height={1000}
-                  className="w-80% mx-auto"
+                  className="w-70% mx-auto"
                 />
               </div>
-              <div className="absolute lg:top-20 top-16 lg:left-0 -left-20 w-72 flex items-center gap-6">
+              <div className="absolute lg:top-20 top-16 lg:left-[-120px] -left-20 w-72 flex items-center gap-6">
                 <div className="text-right">
                   <h5 className="text-muted text-28 mb-3">Desarrollo</h5>
                   <p className="text-18 text-muted text-opacity-60">
@@ -59,23 +72,18 @@ const TimeLine = () => {
                   </p>
                 </div>
                 <div className="bg-light_grey bg-opacity-45 backdrop-blur-sm px-6 py-2 h-fit rounded-full">
-                  <Image
-                    src={`${getImagePrefix()}images/timeline/icon-planning.svg`}
-                    alt="Desarrollo"
-                    width={44}
-                    height={44}
-                    className="w-16 h-16"
+                  <FontAwesomeIcon
+                    icon={faCode}
+                    className="w-7 h-7 text-primary"
                   />
                 </div>
               </div>
               {/*  */}
-              <div className="absolute lg:top-20 top-16 lg:right-0 -right-20 w-72 flex items-center gap-6">
+              <div className="absolute lg:top-20 top-16 lg:right-[-120px] -right-20 w-72 flex items-center gap-6">
                 <div className="bg-light_grey bg-opacity-45 backdrop-blur-sm p-6 h-fit rounded-full">
-                  <Image
-                    src={`${getImagePrefix()}images/timeline/icon-refinement.svg`}
-                    alt="GIS"
-                    width={44}
-                    height={44}
+                  <FontAwesomeIcon
+                    icon={faLocationDot}
+                    className="w-7 h-7 text-primary"
                   />
                 </div>
                 <div className="text-left">
@@ -87,7 +95,7 @@ const TimeLine = () => {
                 </div>
               </div>
               {/*  */}
-              <div className="absolute lg:top-72 top-60 lg:left-[-32] -left-32 w-72 flex items-center gap-6">
+              <div className="absolute lg:top-72 top-60 lg:left-[-200px] -left-32 w-72 flex items-center gap-6">
                 <div className="text-right">
                   <h5 className="text-muted text-28 mb-3">Movilidad</h5>
                   <p className="text-18 text-muted text-opacity-60">
@@ -96,24 +104,18 @@ const TimeLine = () => {
                   </p>
                 </div>
                 <div className="bg-light_grey bg-opacity-45 backdrop-blur-sm px-6 py-2 h-fit rounded-full">
-                  <Image
-                    src={`${getImagePrefix()}images/timeline/icon-prototype.svg`}
-                    alt="Movilidad"
-                    width={44}
-                    height={44}
-                    className="w-16 h-16"
+                  <FontAwesomeIcon
+                    icon={faMobileScreen}
+                    className="w-7 h-7 text-primary"
                   />
                 </div>
               </div>
               {/*  */}
-              <div className="absolute lg:top-72 top-60 lg:right-[-32] -right-32 w-72 flex items-center gap-6">
+              <div className="absolute lg:top-72 top-60 lg:right-[-200px] -right-32 w-72 flex items-center gap-6">
                 <div className="bg-light_grey bg-opacity-45 backdrop-blur-sm px-6 py-2 h-fit rounded-full">
-                  <Image
-                    src={`${getImagePrefix()}images/timeline/icon-support.svg`}
-                    alt="Sistemas"
-                    width={44}
-                    height={44}
-                    className="w-16 h-16"
+                  <FontAwesomeIcon
+                    icon={faServer}
+                    className="w-7 h-7 text-primary"
                   />
                 </div>
                 <div className="text-left">
@@ -125,7 +127,7 @@ const TimeLine = () => {
                 </div>
               </div>
               {/*  */}
-              <div className="absolute lg:bottom-48 bottom-36 lg:left-0 -left-20 w-72 flex items-center gap-6">
+              <div className="absolute lg:bottom-48 bottom-36 lg:left-[-50px] -left-20 w-72 flex items-center gap-6">
                 <div className="text-right">
                   <h5 className="text-muted text-28 mb-3">Consultoría</h5>
                   <p className="text-18 text-muted text-opacity-60">
@@ -133,24 +135,18 @@ const TimeLine = () => {
                   </p>
                 </div>
                 <div className="bg-light_grey bg-opacity-45 backdrop-blur-sm px-6 py-2 h-fit rounded-full">
-                  <Image
-                    src={`${getImagePrefix()}images/timeline/icon-support.svg`}
-                    alt="Consultoría"
-                    width={44}
-                    height={44}
-                    className="w-16 h-16"
+                  <FontAwesomeIcon
+                    icon={faUserTie}
+                    className="w-7 h-7 text-primary"
                   />
                 </div>
               </div>
               {/*  */}
-              <div className="absolute lg:bottom-48 bottom-36 lg:right-0 -right-20 w-72 flex items-center gap-6">
+              <div className="absolute lg:bottom-48 bottom-36 lg:right-[-50px] -right-20 w-72 flex items-center gap-6">
                 <div className="bg-light_grey bg-opacity-45 backdrop-blur-sm px-6 py-2 h-fit rounded-full">
-                  <Image
-                    src={`${getImagePrefix()}images/timeline/icon-support.svg`}
-                    alt="SEO"
-                    width={44}
-                    height={44}
-                    className="w-16 h-16"
+                  <FontAwesomeIcon
+                    icon={faLaptopCode}
+                    className="w-7 h-7 text-primary"
                   />
                 </div>
                 <div className="text-left">
