@@ -15,13 +15,13 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <main>
-      <Inicio/>
+      <Inicio />
       <Hero />
       <TimeLine />
+      <Upgrade />
       <Work />
       <Portfolio />
       <Platform />
-      <Upgrade />
       <Perks />
     </main>
   );

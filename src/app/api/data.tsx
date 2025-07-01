@@ -101,11 +101,35 @@ export const portfolioData: { image: string; title: string }[] = [
   },
 ];
 
-export const upgradeData: { title: string }[] = [
-  { title: "100% Secure" },
-  { title: "A Fraction of the Cost" },
-  { title: "More Durable" },
-  { title: "Easier to Use" },
+export const qualityPolicy: { title: string }[] = [
+  {
+    title:
+      "Satisfacción del cliente mediante el cumplimiento de especificaciones, plazos y precios acordados.",
+  },
+  { title: "Compromiso con la mejora continua de servicios y procesos." },
+  {
+    title:
+      "Adaptación a cambios tecnológicos y del mercado para mantener la competitividad.",
+  },
+  { title: "Entrega puntual de productos y servicios." },
+  {
+    title:
+      "Soluciones a precios competitivos, ajustadas a las necesidades del cliente.",
+  },
+  {
+    title:
+      "Capacitación constante del personal, tanto técnica como orientada a la calidad del servicio.",
+  },
+  {
+    title:
+      "Concienciación interna sobre la importancia del sistema de calidad.",
+  },
+  { title: "Relaciones estables con fabricantes líderes del sector." },
+  {
+    title:
+      "Valor añadido mediante formación continua y colaboración en el desarrollo de productos.",
+  },
+  { title: "Partner certificado de empresas referentes del mercado." },
 ];
 
 export const perksData: {
