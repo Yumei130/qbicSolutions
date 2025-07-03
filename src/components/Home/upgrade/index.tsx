@@ -5,7 +5,7 @@ import { getImagePrefix } from "@/utils/utils";
 
 const Upgrade = () => {
   return (
-    <section className="md:py-5 py-20" id="upgrade">
+    <section className="md:py-5 py-20" id="quality">
       <div className="container mx-auto lg:max-w-screen-xl px-4">
         <p className="text-primary sm:text-40 text-30 mb-3">
           Política de Calidad
