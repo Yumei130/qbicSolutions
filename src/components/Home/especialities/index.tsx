@@ -12,6 +12,7 @@ import {
   faProjectDiagram,
   faPuzzlePiece,
 } from "@fortawesome/free-solid-svg-icons";
+import Inovation from "../innovation";
 
 const TopAnimation = {
   initial: { y: -50, opacity: 0 },
@@ -89,6 +90,9 @@ const SectoresEspecializacion = () => {
             </p>
           </motion.div>
         </div>
+      </div>
+      <div className="pt-16">
+        <Inovation />
       </div>
     </section>
   );

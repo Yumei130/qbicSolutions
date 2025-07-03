@@ -9,7 +9,6 @@ import Perks from "@/components/Home/perks";
 import { Metadata } from "next";
 import Inicio from "@/components/Home/Hero/inicio";
 import SectoresEspecializacion from "@/components/Home/especialities";
-import Inovation from "@/components/Home/innovation";
 export const metadata: Metadata = {
   title: "Qbic Solutions Group",
 };
@@ -23,10 +22,9 @@ export default function Home() {
       <Upgrade />
       <Work />
       <SectoresEspecializacion />
-      <Portfolio />
+      {/* <Portfolio />
       <Platform />
-      <Inovation />
-      <Perks />
+      <Perks /> */}
     </main>
   );
 }

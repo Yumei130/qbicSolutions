@@ -10,8 +10,8 @@ const Footer: FC = () => {
   return (
     <footer className="pt-16 bg-darkmode">
       <div className="container mx-auto lg:max-w-screen-xl md:max-w-screen-md px-4">
-        <div className="grid grid-cols-1 sm:grid-cols-12 lg:gap-20 md:gap-6 sm:gap-12 gap-6  pb-16">
-          <div className="lg:col-span-4 md:col-span-6 col-span-6">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 pb-16">
+          <div className="flex flex-col flex-1">
             <Logo />
             <div className="flex gap-6 items-center mt-8">
               <Link href="#" className="group">
@@ -40,13 +40,10 @@ const Footer: FC = () => {
               </Link>
             </div>
             <h3 className="text-white text-24 font-medium sm:mt-20 mt-12">
-              2025 Copright | Crypgo
-            </h3>
-            <h3 className="text-white text-24 font-medium sm:mt-20 mt-12">
-              Distributed by <a href="https://themewagon.com" target="_blank">ThemeWagon</a>
+              2025 Copyright | QbicSolutions
             </h3>
           </div>
-          <div className="lg:col-span-2 md:col-span-3 col-span-6">
+          <div className="flex flex-col flex-1">
             <h4 className="text-white mb-4 font-medium text-24">Links</h4>
             <ul>
               {headerData.map((item, index) => (
@@ -61,7 +58,7 @@ const Footer: FC = () => {
               ))}
             </ul>
           </div>
-          <div className="lg:col-span-2 md:col-span-3 col-span-6">
+          {/* <div className="lg:col-span-2 md:col-span-3 col-span-6">
             <h4 className="text-white mb-4 font-medium text-24">Information</h4>
             <ul>
               {footerlabels.map((item, index) => (
@@ -75,8 +72,8 @@ const Footer: FC = () => {
                 </li>
               ))}
             </ul>
-          </div>
-          <div className="lg:col-span-4 md:col-span-4 col-span-6">
+          </div> */}
+          {/* <div className="lg:col-span-4 md:col-span-4 col-span-6">
             <h3 className="text-white text-24 font-medium">Subscribe</h3>
             <p className="text-muted text-opacity-60 text-18 mt-5">
               Subscribe to get the latest
@@ -97,7 +94,7 @@ const Footer: FC = () => {
                 className="text-primary absolute right-7 bottom-4"
               />
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>
