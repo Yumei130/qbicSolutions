@@ -99,8 +99,8 @@ const Inovation = () => {
             </ul>
           </div>
           <img
-            src={`${getImagePrefix()}images/innovation/comercio.png`}
-            alt="Comercio y Consumo"
+            src={`${getImagePrefix()}images/innovation/security.png`}
+            alt="Seguridad"
             className="w-1/4 rounded-lg object-cover h-40 me-10"
           />
         </div>
@@ -118,9 +118,9 @@ const Inovation = () => {
             </ul>
           </div>
           <img
-            src={`${getImagePrefix()}images/innovation/comercio.png`}
-            alt="Comercio y Consumo"
-            className="w-1/4 rounded-lg object-cover h-40 me-10"
+            src={`${getImagePrefix()}images/innovation/cableado.png`}
+            alt="Telecomunicaaciones"
+            className="w-1/3 rounded-lg object-cover h-40 me-8"
           />
         </div>
       </div>

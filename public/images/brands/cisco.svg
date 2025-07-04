@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="700"
+   height="700"
+   id="svg24"
+   sodipodi:docname="cisco-logo.svg"
+   style="fill:#049fd9"
+   inkscape:export-filename="G:\Users\suitedoalex\sites\cisco-logo-0.png"
+   inkscape:export-xdpi="561.73712"
+   inkscape:export-ydpi="561.73712"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata14">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs12" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1600"
+     inkscape:window-height="837"
+     id="namedview10"
+     showgrid="false"
+     inkscape:zoom="0.38657407"
+     inkscape:cx="-220.34861"
+     inkscape:cy="121.70402"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg24" />
+  <path
+     d="m 346.40772,395.47423 c -0.66646,-0.18198 -10.921,-2.82656 -21.81836,-2.82656 -20.63197,0 -33.05369,11.14079 -33.05369,27.73145 0,14.6858 10.39161,22.0098 22.86296,25.94949 1.38255,0.45612 3.41975,1.09422 4.77631,1.54326 5.55149,1.74651 9.98276,4.34146 9.98276,8.83653 0,5.02683 -5.12137,8.28115 -16.25507,8.28115 -9.78423,0 -19.16433,-2.7982 -21.14008,-3.29686 v 20.41218 c 1.10131,0.23397 12.24919,2.42242 24.15807,2.42242 17.1295,0 36.72396,-7.4847 36.72396,-29.76628 0,-10.80756 -6.61736,-20.75723 -21.14481,-25.3752 l -6.17541,-1.9663 c -3.68445,-1.16276 -10.26163,-3.04634 -10.26163,-8.44658 0,-4.26583 4.87321,-7.26964 13.84681,-7.26964 7.74231,0 17.16495,2.60204 17.49818,2.70603 z m 189.1642,43.11443 c 0,12.90621 -9.88586,23.34745 -23.15129,23.34745 -13.27962,0 -23.13948,-10.44124 -23.13948,-23.34745 0,-12.88021 9.85986,-23.32617 23.13948,-23.32617 13.26543,0 23.15129,10.44596 23.15129,23.32617 m -23.15129,-45.91263 c -27.28241,0 -46.84852,20.57762 -46.84852,45.91263 0,25.3752 19.56611,45.93863 46.84852,45.93863 27.28004,0 46.87451,-20.56343 46.87451,-45.93863 0,-25.33501 -19.59447,-45.91263 -46.87451,-45.91263 M 261.51887,482.94858 H 239.1333 v -88.70092 h 22.38557"
+     id="path10"
+     inkscape:connector-curvature="0"
+     style="stroke-width:2.36334133"
+     inkscape:export-filename="G:\Users\suitedoalex\sites\cisco-logo-4.png"
+     inkscape:export-xdpi="75.223068"
+     inkscape:export-ydpi="75.223068" />
+  <path
+     d="m 208.36496,395.85473 c -2.10337,-0.62392 -9.87876,-3.1787 -20.40981,-3.1787 -27.23987,0 -47.2361,19.42194 -47.2361,45.91263 0,28.57989 22.0736,45.93863 47.2361,45.93863 9.99693,0 17.62816,-2.36807 20.40981,-3.15742 V 457.5592 c -0.96188,0.53412 -8.27878,4.70778 -18.8051,4.70778 -14.91269,0 -24.53149,-10.4956 -24.53149,-23.67832 0,-13.58448 10.03475,-23.65941 24.53149,-23.65941 10.70593,0 17.90467,4.26584 18.8051,4.73614"
+     id="path12"
+     inkscape:connector-curvature="0"
+     style="stroke-width:2.36334133"
+     inkscape:export-filename="G:\Users\suitedoalex\sites\cisco-logo-4.png"
+     inkscape:export-xdpi="75.223068"
+     inkscape:export-ydpi="75.223068" />
+  <use
+     xlink:href="#path12"
+     transform="translate(233.63991,1.3755999e-6)"
+     id="use14"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     inkscape:export-filename="G:\Users\suitedoalex\sites\cisco-logo-4.png"
+     inkscape:export-xdpi="75.223068"
+     inkscape:export-ydpi="75.223068" />
+  <g
+     id="g22"
+     transform="matrix(2.3633412,0,0,2.3633412,94.75915,215.29782)"
+     inkscape:export-filename="G:\Users\suitedoalex\sites\cisco-logo-4.png"
+     inkscape:export-xdpi="75.223068"
+     inkscape:export-ydpi="75.223068">
+    <path
+       d="m 61.061,4.759 c 0,-2.587 -2.113,-4.685 -4.703,-4.685 -2.589,0 -4.702,2.098 -4.702,4.685 v 49.84 c 0,2.602 2.113,4.699 4.702,4.699 2.59,0 4.703,-2.097 4.703,-4.699 z M 35.232,22.451 c 0,-2.586 -2.112,-4.687 -4.702,-4.687 -2.59,0 -4.702,2.101 -4.702,4.687 v 22.785 c 0,2.601 2.112,4.699 4.702,4.699 2.59,0 4.702,-2.098 4.702,-4.699 z M 9.404,35.383 C 9.404,32.796 7.292,30.699 4.702,30.699 2.115,30.699 0,32.796 0,35.383 v 9.853 c 0,2.601 2.115,4.699 4.702,4.699 2.59,0 4.702,-2.098 4.702,-4.699"
+       id="path16"
+       inkscape:connector-curvature="0" />
+    <use
+       xlink:href="#path16"
+       transform="matrix(-1,0,0,1,112.717,0)"
+       id="use18"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%" />
+  </g>
+  <use
+     xlink:href="#g22"
+     transform="matrix(-1,0,0,1,700,1.3755999e-6)"
+     id="use20"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     inkscape:export-filename="G:\Users\suitedoalex\sites\cisco-logo-4.png"
+     inkscape:export-xdpi="75.223068"
+     inkscape:export-ydpi="75.223068" />
+</svg>
