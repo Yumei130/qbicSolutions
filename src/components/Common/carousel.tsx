@@ -33,7 +33,7 @@ const Carousel: React.FC = () => {
   }, []);
 
   return (
-    <section className="bg-darkmode py-10 px-4">
+    <section className="bg-darkmode py-10 px-4" id="products">
       <div className="relative w-full max-w-7xl mx-auto overflow-hidden rounded-xl">
         <p className="sm:text-40 text-30 font-medium text-primary mb-6 text-center pt-10">
           Productos Informáticos
@@ -41,17 +41,22 @@ const Carousel: React.FC = () => {
         <p className="text-center pb-12">
           Ofrecemos todo equipo de cómputo con las principales marcas.
         </p>
-        <div className="relative h-[200px] sm:h-[300px] xl:h-[350px] bg-white/5 rounded-xl">
-          {images.map((src, index) => (
-            <img
-              key={index}
-              src={src}
-              alt={`Slide ${index + 1}`}
-              className={`absolute w-full h-full object-contain transition-opacity duration-700 ease-in-out rounded-xl text-white bg-darkmode ${
-                index === current ? "opacity-100" : "opacity-0"
-              }`}
-            />
-          ))}
+        <div className="relative h-[200px] sm:h-[300px] xl:h-[350px]  rounded-xl">
+          {images.map((src, index) => {
+            const isLenovo = src.includes("lenovo.svg");
+            const isMicrosoft = src.includes("microsoft.svg");
+            return (
+              <img
+                key={index}
+                src={src}
+                alt={`Slide ${index + 1}`}
+                className={`absolute w-full h-full object-contain transition-opacity duration-700 ease-in-out rounded-xl text-white bg-darkmode ${
+                  index === current ? "opacity-100" : "opacity-0"
+                } ${isLenovo || isMicrosoft ? "scale-75" : ""}`}
+                style={{}}
+              />
+            );
+          })}
 
           {/* Botones */}
           <button

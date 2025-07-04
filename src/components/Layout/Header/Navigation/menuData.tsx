@@ -7,5 +7,5 @@ export const headerData: HeaderItem[] = [
   { label: "Política de Calidad", href: "/#quality" },
   { label: "ContpaQi", href: "#contpaq" },
   { label: "Especializacion", href: "/#sectores" },
-  { label: "Docs", href: "/documentation#version" },
+  { label: "Productos Informáticos", href: "/#products" },
 ];
