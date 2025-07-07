@@ -121,7 +121,7 @@ const Hero = () => {
                 alt="Banner"
                 width={0}
                 height={0}
-                className="w-full h-auto lg:block hidden "
+                className="w-full h-auto rounded-3xl "
               />
             </div>
           </motion.div>
