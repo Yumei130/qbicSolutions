@@ -72,7 +72,7 @@ const Hero = () => {
             animate={leftControls}
             className="lg:col-span-5 col-span-12 z-10"
           >
-            <div className="flex gap-6 items-center lg:justify-start justify-center mb-5 mt-24">
+            <div className="flex  items-center lg:justify-start justify-center mb-5 mt-24">
               <Image
                 src={`${getImagePrefix()}images/icons/users.svg`}
                 alt="icon"
@@ -113,7 +113,7 @@ const Hero = () => {
             ref={rightRef}
             initial={{ x: "100%", opacity: 0 }}
             animate={rightControls}
-            className="col-span-7 lg:block hidden"
+            className="col-span-12 lg:col-span-7 hidden lg:block"
           >
             <div className="ml-20 -mr-64 mt-20">
               <Image
@@ -121,7 +121,7 @@ const Hero = () => {
                 alt="Banner"
                 width={0}
                 height={0}
-                className="w-full h-auto rounded-3xl "
+                className="w-full h-auto lg:block hidden "
               />
             </div>
           </motion.div>
