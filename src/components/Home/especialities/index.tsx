@@ -39,20 +39,23 @@ const SectoresEspecializacion = () => {
   ];
 
   return (
-    <section className="py-20  text-white" id="sectores">
-      <hr className="mb-36 mx-25" />
+    <section
+      className="py-20 relative md:pt-40 md:pb-28 overflow-hidden z-1 text-white"
+      id="sectores"
+    >
       <div className="container mx-auto px-4 lg:max-w-screen-xl">
-        <div className="grid grid-cols-12 gap-10 items-start">
+        <hr className="mb-36 mx-25" />
+        <div className="grid grid-cols-12  items-start">
           <motion.div {...TopAnimation} className="lg:col-span-5 col-span-12">
             <h2 className="sm:text-40 text-30 font-medium text-primary mb-6">
               Sectores de Especialización
             </h2>
-            <p className="text-muted text-18 leading-relaxed">
+            <p className="text-muted text-18 leading-relaxed text-justify">
               Llevamos nuestra experiencia tecnológica a distintos sectores,
               ofreciendo soluciones personalizadas y alineadas con las
               necesidades específicas de cada área.
             </p>
-            <p className="text-muted text-18 mt-4 leading-relaxed">
+            <p className="text-muted text-18 mt-4 leading-relaxed text-justify">
               Nuestro objetivo es ayudar a las organizaciones a impulsar su
               productividad y mejorar los servicios que ofrecen a sus propios
               clientes.
@@ -63,7 +66,7 @@ const SectoresEspecializacion = () => {
             {...BottomAnimation}
             className="lg:col-span-7 col-span-12"
           >
-            <p className="text-muted text-18 mb-6 leading-relaxed">
+            <p className="text-muted text-18 mb-6 leading-relaxed text-justify">
               Contamos con unidades de negocio especializadas que trabajan de
               forma independiente pero complementaria, para brindar soluciones
               tecnológicas a medida según el sector.
@@ -83,7 +86,7 @@ const SectoresEspecializacion = () => {
               ))}
             </div>
 
-            <p className="text-muted text-18 mt-8 leading-relaxed">
+            <p className="text-muted text-18 mt-8 leading-relaxed text-justify">
               Siempre con la vista puesta en la innovación, diseñamos
               herramientas que se adaptan perfectamente a las particularidades
               de cada cliente y sector.

@@ -19,7 +19,7 @@ const Inovation = () => {
           <img
             src={`${getImagePrefix()}images/innovation/sectorPublico.png`}
             alt="Sector Público"
-            className="w-1/4 rounded-lg object-cover h-40 me-10"
+            className="w-1/4 rounded-lg object-cover h-40 me-10 md:block lg:block hidden"
           />
         </div>
 
@@ -39,7 +39,7 @@ const Inovation = () => {
           <img
             src={`${getImagePrefix()}images/innovation/bussiness.png`}
             alt="Sector Empresarial"
-            className="w-1/3 rounded-lg object-cover h-40 me-10"
+            className="w-1/3 rounded-lg object-cover h-40 me-10 md:block lg:block hidden"
           />
         </div>
 
@@ -57,7 +57,7 @@ const Inovation = () => {
           <img
             src={`${getImagePrefix()}images/innovation/tecnology.png`}
             alt="Tecnología y Comunicación"
-            className="w-1/4 rounded-lg object-cover h-40 me-10"
+            className="w-1/4 rounded-lg object-cover h-40 me-10 md:block lg:block hidden"
           />
         </div>
 
@@ -77,7 +77,7 @@ const Inovation = () => {
           <img
             src={`${getImagePrefix()}images/innovation/comercio.png`}
             alt="Comercio y Consumo"
-            className="w-1/4 rounded-lg object-cover h-40 me-10"
+            className="w-1/4 rounded-lg object-cover h-40 me-10 md:block lg:block hidden"
           />
         </div>
       </section>
@@ -101,7 +101,7 @@ const Inovation = () => {
           <img
             src={`${getImagePrefix()}images/innovation/security.png`}
             alt="Seguridad"
-            className="w-1/4 rounded-lg object-cover h-40 me-10"
+            className="w-1/4 rounded-lg object-cover h-40 me-10 md:block lg:block hidden"
           />
         </div>
         <div className="bg-gradient-to-br from-[#1e293b] to-[#0f172a] p-6 rounded-2xl shadow-md border border-white/10 hover:scale-[1.02] transition-all duration-300 flex flex-col md:flex-row items-center">
@@ -120,7 +120,7 @@ const Inovation = () => {
           <img
             src={`${getImagePrefix()}images/innovation/cableado.png`}
             alt="Telecomunicaaciones"
-            className="w-1/3 rounded-lg object-cover h-40 me-8"
+            className="w-1/3 rounded-lg object-cover h-40 me-8 md:block lg:block hidden"
           />
         </div>
       </div>

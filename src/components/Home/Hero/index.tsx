@@ -1,4 +1,4 @@
-"use client";;
+"use client";
 import Image from "next/image";
 import { motion, useInView, useAnimation } from "framer-motion";
 import { useEffect, useRef, useState, useCallback } from "react";
@@ -61,7 +61,7 @@ const Hero = () => {
 
   return (
     <section
-      className="relative md:pt-40 md:pb-28 py-20 overflow-hidden z-1"
+      className="relative md:pt-40 md:pb-28 py-20  z-1" //overflow-hidden
       id="about-us"
     >
       <div className="container mx-auto lg:max-w-screen-xl px-4">
@@ -119,9 +119,9 @@ const Hero = () => {
               <Image
                 src={`${getImagePrefix()}images/hero/code.jpg`}
                 alt="Banner"
-                width={1150}
-                height={1150}
-                className="rounded-3xl "
+                width={0}
+                height={0}
+                className="w-full h-auto rounded-3xl "
               />
             </div>
           </motion.div>
