@@ -4,6 +4,17 @@ import { motion, useInView, useAnimation } from "framer-motion";
 import { useEffect, useRef, useState, useCallback } from "react";
 import { getImagePrefix } from "@/utils/utils";
 
+function useIsMobile() {
+  const [isMobile, setIsMobile] = useState(false);
+  useEffect(() => {
+    const check = () => setIsMobile(window.innerWidth < 1024);
+    check();
+    window.addEventListener("resize", check);
+    return () => window.removeEventListener("resize", check);
+  }, []);
+  return isMobile;
+}
+
 const Hero = () => {
   const [isBuying, setIsBuyingOpen] = useState(false);
   const [isSelling, setIsSellingOpen] = useState(false);
@@ -40,8 +51,8 @@ const Hero = () => {
   const leftRef = useRef(null);
   const rightRef = useRef(null);
 
-  const isLeftInView = useInView(leftRef, { margin: "-100px" });
-  const isRightInView = useInView(rightRef, { margin: "-100px" });
+  const isLeftInView = useInView(leftRef, { margin: "-100px", once: true });
+  const isRightInView = useInView(rightRef, { margin: "-100px", once: true });
 
   useEffect(() => {
     if (isLeftInView) {
@@ -59,6 +70,8 @@ const Hero = () => {
     }
   }, [isRightInView, rightControls]);
 
+  const isMobile = useIsMobile();
+
   return (
     <section
       className="relative md:pt-40 md:pb-28 py-20  z-1" //overflow-hidden
@@ -68,8 +81,8 @@ const Hero = () => {
         <div className="grid grid-cols-12">
           <motion.div
             ref={leftRef}
-            initial={{ x: "-100%", opacity: 0 }}
-            animate={leftControls}
+            initial={{ x: 0, opacity: 1 }}
+            animate={isMobile ? { x: 0, opacity: 1 } : leftControls}
             className="lg:col-span-5 col-span-12 z-10"
           >
             <div className="flex  items-center lg:justify-start justify-center mb-5 mt-24">
