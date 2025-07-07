@@ -2,18 +2,27 @@ import { useState } from "react";
 import Link from "next/link";
 import { HeaderItem } from "../../../../types/menu";
 
-const MobileHeaderLink: React.FC<{ item: HeaderItem }> = ({ item }) => {
+const MobileHeaderLink: React.FC<{
+  item: HeaderItem;
+  closeMenu?: () => void;
+}> = ({ item, closeMenu }) => {
   const [submenuOpen, setSubmenuOpen] = useState(false);
 
-  const handleToggle = () => {
-    setSubmenuOpen(!submenuOpen);
+  const handleToggle = (e?: React.MouseEvent) => {
+    if (e) e.preventDefault();
+    setSubmenuOpen((open) => !open);
+  };
+
+  const handleClose = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    setSubmenuOpen(false);
   };
 
   return (
     <div className="relative w-full">
       <Link
         href={item.href}
-        onClick={item.submenu ? handleToggle : undefined}
+        onClick={item.submenu ? handleToggle : closeMenu}
         className="flex items-center justify-between w-full py-2 text-muted focus:outline-none"
       >
         {item.label}
@@ -36,12 +45,24 @@ const MobileHeaderLink: React.FC<{ item: HeaderItem }> = ({ item }) => {
         )}
       </Link>
       {submenuOpen && item.submenu && (
-        <div className="bg-white p-2 w-full">
+        <div className="bg-white p-2 w-full relative">
+          <button
+            onClick={handleClose}
+            className="absolute top-2 right-2 text-gray-500 hover:text-primary text-xl"
+            aria-label="Cerrar submenu"
+            type="button"
+          >
+            ✕
+          </button>
           {item.submenu.map((subItem, index) => (
             <Link
               key={index}
               href={subItem.href}
               className="block py-2 text-gray-500 hover:bg-gray-200"
+              onClick={() => {
+                setSubmenuOpen(false);
+                closeMenu && closeMenu();
+              }}
             >
               {subItem.label}
             </Link>

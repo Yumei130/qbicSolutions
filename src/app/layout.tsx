@@ -6,6 +6,7 @@ import { ThemeProvider } from "next-themes";
 import ScrollToTop from "@/components/ScrollToTop";
 import Aoscompo from "@/utils/aos";
 const font = DM_Sans({ subsets: ["latin"] });
+import Head from "next/head";
 
 export default function RootLayout({
   children,
@@ -14,6 +15,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />{" "}
+        {/*  Agrega esto */}
+      </Head>
       <body className={`${font.className}`}>
         <ThemeProvider
           attribute="class"

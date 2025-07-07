@@ -12,6 +12,7 @@ import SectoresEspecializacion from "@/components/Home/especialities";
 import Carousel from "@/components/Common/carousel";
 export const metadata: Metadata = {
   title: "Qbic Solutions Group",
+  viewport: "width=device-width, initial-scale=1.0",
 };
 
 export default function Home() {
@@ -23,7 +24,7 @@ export default function Home() {
       <Upgrade />
       <Work />
       <SectoresEspecializacion />
-      <Carousel/>
+      <Carousel />
       {/* <Portfolio />
       <Platform />
       <Perks /> */}
